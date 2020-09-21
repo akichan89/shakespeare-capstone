@@ -9,6 +9,7 @@ import { NavigationBar } from './NavigationBar';
 import { Contact } from './Contact';
 import { Home } from './Home';
 import { About } from './About';
+import Form from '../store/Form';
 
 import Sidebar from './Sidebar';
 import Order from './Order';
@@ -38,6 +39,8 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/order" component={Order} />
           <Route path="/contact" component={Contact} />
+          <Route path="/form" component={Form} />
+
          
         </Switch>
       </Router>

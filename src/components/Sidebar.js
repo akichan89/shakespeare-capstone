@@ -44,6 +44,13 @@ constructor(props) {
               css: 'fas fa-question-circle',
               key: 4
             },
+
+            {
+                path: '/Form',
+                name: 'Form',
+                css: 'fas fa-question-circle',
+                key: 5
+              },
           ]
     }
 }

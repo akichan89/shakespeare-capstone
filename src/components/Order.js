@@ -4,6 +4,7 @@ import '../store/style/app.scss';
 import ItemPage from '../store/itemPage';
 import CartPage from '../store/CartPage';
 import { items } from '../store/static-data';
+import Form from '../store/Form';
 
 const summmarizeCart = cart => {
   const groupedItems = cart.reduce((summary, item) => {

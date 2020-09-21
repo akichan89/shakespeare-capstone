@@ -1,6 +1,7 @@
 import React from 'react';
 import './style/CartPage.scss';
 import Item from './Item';
+import Form from './Form';
 
 
 const CartPage = ({items, onAddOne, onRemoveOne}) => {
@@ -18,12 +19,18 @@ const CartPage = ({items, onAddOne, onRemoveOne}) => {
          onClick={() => onAddOne(item)}>+
 
          </button>
+
+         
      </div>
  </Item>
 
  </li>
  ))}
+
+
  </ul>
+
+ 
 );
 
  };
