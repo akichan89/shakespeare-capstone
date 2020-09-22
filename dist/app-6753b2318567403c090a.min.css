@@ -1,0 +1,316 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: 'montserrat';
+}
+
+body {
+  overflow-x: hidden;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app {
+  margin-top: 2rem;
+  display: grid;
+  justify-items: center;
+}
+.contact-page {
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-center {
+  padding: 20px;
+}
+
+.form-center > .name {
+  margin-bottom: 10px;
+}
+
+.form-center > .email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-center > .message {
+  margin-bottom: 50px;
+}
+
+.form-center > .button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App-nav {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 2px solid #508fca;
+}
+
+.App-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.App-nav button {
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.app-nav-item {
+  list-style: none;
+  display: inline-block;
+  margin-right: 32px;
+  font-size: 24px;
+  border-bottom: 4px solid transparent;
+}
+
+.app-content {
+  margin: 0 20px;
+}
+
+.app-nav-item button:hover {
+  color: #999;
+}
+
+.app-nav-item.selected {
+  border-bottom-color: #ffaa3f;
+}
+* {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+label {
+  margin-right: 1em;
+}
+
+p, div {
+  font-family: Lato;
+}
+
+.wrapper {
+  height: 97vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4A4E69;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+}
+
+.form-wrapper > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica", "Neue", sa ns-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  margin-bottom: 0.5em;
+  color: #444;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #d6d1d5;
+}
+
+input::-moz-placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+input:-ms-input-placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #bbb;
+}
+
+button {
+  min-width: 100%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-top: 0.5em;
+  padding: 0.938em;
+  border: none;
+  border-radius: 4px;
+  background-color: #22223B;
+  color: #fefefe;
+}
+
+button:hover {
+  background-color: #4A4E69;
+  color: #fefefe;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size, .topping, .instructions, .free {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+}
+.ItemPage-items {
+  margin: 0;
+  padding: 0;
+}
+
+.ItemPage-items li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.CartPage-items {
+  margin: 0;
+  padding: 0;
+}
+
+.CartPage-items li {
+  list-style: none;
+}
+
+.CartItem-count {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+
+.CartItem-addOne,
+.CartItem-removeOne {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.CartItem-addOne {
+  border-left: none;
+}
+
+.CartItem-removeOne {
+  border-right: none;
+}
+.Item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.Item-image {
+  width: 64px;
+  height: 64px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  float: left;
+}
+
+.Item-title {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+.Item-price {
+  text-align: right;
+  font-size: 18px;
+  color: #555;
+}
+
+.Item-addToCart {
+  margin-bottom: 5px;
+  font-size: 14px;
+  border: 2px solid #FFAA3F;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Item-addToCart:hover {
+  background-color: #FFDDB2;
+}
+
+.Item-addToCart:active {
+  background-color: #ED8400;
+  color: #fff;
+  outline: none;
+}
+
+.Item-addToCart:focus {
+  outline: none;
+}
+
+.Item-left {
+  flex: 1;
+}
+
+.Item-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=app-18c11985db0aa7eb4623.map*/
